@@ -1,16 +1,10 @@
 'use client'
-import { Button, ButtonGroup, Carousel } from "@material-tailwind/react";
+import { Button, Carousel } from "@material-tailwind/react";
 
 export default function Home() {
   return (
     <>
-      <Button>Button</Button>
-
-      <ButtonGroup>
-        <Button>One</Button>
-        <Button>Two</Button>
-        <Button>Three</Button>
-      </ButtonGroup>
+      <Button color="green">Button</Button>
       <div className="grid max-h-[700px] min-h-[150px] w-full place-items-center overflow-x-scroll rounded-lg p-6 lg:overflow-visible">
         <Carousel className="rounded-xl">
           <img
