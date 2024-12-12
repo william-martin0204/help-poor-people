@@ -1,11 +1,8 @@
-'use client'
+"use client"
 import {
     Navbar,
-    Collapse,
     Typography,
     Button,
-    IconButton,
-    Card,
 } from "@material-tailwind/react";
 
 export default function StickyNavbar() {
@@ -28,14 +25,14 @@ export default function StickyNavbar() {
                                     size="lg"
                                     className="hidden lg:inline-block"
                                 >
-                                    <span>Log In</span>
+                                    <span>Meet Poors</span>
                                 </Button>
                                 <Button
                                     variant="gradient"
                                     size="lg"
                                     className="hidden lg:inline-block"
                                 >
-                                    <span>Sign Up</span>
+                                    <span>Donate</span>
                                 </Button>
                             </div>
                         </div>
