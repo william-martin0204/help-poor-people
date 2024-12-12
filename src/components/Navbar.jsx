@@ -1,3 +1,4 @@
+'use client'
 import {
     Navbar,
     Collapse,
@@ -18,7 +19,7 @@ export default function StickyNavbar() {
                             href="#"
                             className="mr-4 cursor-pointer py-1.5 font-medium"
                         >
-                            Material Tailwind
+                            Donate for Poors!
                         </Typography>
                         <div className="flex items-center gap-4">
                             <div className="flex items-center gap-x-1">
@@ -34,24 +35,23 @@ export default function StickyNavbar() {
                                     size="lg"
                                     className="hidden lg:inline-block"
                                 >
-                                    <span>Instant Donate</span>
+                                    <span>Sign Up</span>
                                 </Button>
                             </div>
                         </div>
                     </div>
                 </div>
             </Navbar>
-            <div className="mx-auto max-w-screen-md py-12">
-                <Card className="mb-12 overflow-hidden">
-                    <img
-                        alt="nature"
-                        className="h-[32rem] w-full object-cover object-center"
-                        src="https://images.unsplash.com/photo-1485470733090-0aae1788d5af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2717&q=80"
-                    />
-                </Card>
-                <Typography variant="h2" color="blue-gray" className="mb-2">
-                    What is Material Tailwind
+            <div className="container mx-auto">
+                <Typography variant="h2" color="blue-gray" className="mb-2 mt-3 text-center">
+                    Let’s donate and spread kindness together.
                 </Typography>
+                <Typography variant="lead" color="blue-gray">
+                    No matter the amount, every contribution holds immense value. Even the smallest donation can create a ripple of change, providing food, warmth, and hope to those in need. It’s not about how much you give but the kindness behind it that truly matters. Together, our small acts of generosity can add up to something extraordinary, proving that compassion has the power to transform lives.
+                </Typography>
+                <div className="flex justify-center mt-4">
+                    <Button color="green" size="lg" className="rounded-full">Instant Donate</Button>
+                </div>
             </div>
         </div>
     )

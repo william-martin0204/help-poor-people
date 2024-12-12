@@ -6,7 +6,6 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <Button color="green">Button</Button>
       <div className="grid max-h-[700px] min-h-[150px] w-full place-items-center overflow-x-scroll rounded-lg p-6 lg:overflow-visible">
         <Carousel className="rounded-xl">
           <img
