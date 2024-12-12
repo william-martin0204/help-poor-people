@@ -20,7 +20,7 @@ export default function StickyNavbar() {
                         </Typography>
                         <div className="flex items-center gap-4">
                             <div className="flex items-center gap-x-1">
-                                <Button
+                                {/* <Button
                                     variant="text"
                                     size="lg"
                                     className="hidden lg:inline-block"
@@ -33,7 +33,7 @@ export default function StickyNavbar() {
                                     className="hidden lg:inline-block"
                                 >
                                     <span>Donate</span>
-                                </Button>
+                                </Button> */}
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,9 @@ export default function StickyNavbar() {
                     No matter the amount, every contribution holds immense value. Even the smallest donation can create a ripple of change, providing food, warmth, and hope to those in need. It’s not about how much you give but the kindness behind it that truly matters. Together, our small acts of generosity can add up to something extraordinary, proving that compassion has the power to transform lives.
                 </Typography>
                 <div className="flex justify-center mt-4">
-                    <Button color="green" size="lg" className="rounded-full">Instant Donate</Button>
+                    <a href="https://nowpayments.io/donation?api_key=JE5NC8T-YPHMNFR-JPDA5WP-PV54CR0" target="_blank" rel="noreferrer noopener">
+                        <Button color="green" size="lg" className="rounded-full">Instant Donate</Button>
+                    </a>
                 </div>
             </div>
         </div>
